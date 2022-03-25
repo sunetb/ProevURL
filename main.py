@@ -8,8 +8,6 @@ f = requests.get(link)
 html_text = f.text
 
 
-
-
 class MyDataObject:
     current_tag = ""
 
